@@ -4,7 +4,7 @@ class Appointment < ActiveRecord::Base
 
   def datetime_converter=
     byebug
-     self.appointment_datetime 
+     self.appointment_datetime
   end
 
   def datetime_converter
